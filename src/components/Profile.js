@@ -11,8 +11,13 @@ const Profile = () => {
           <img src={profile} alt="user profile image" id="profile__img" />
         </div>
         <div className="profile__name">
-          <h1 id="twitter">@alvyynm</h1>
-          <h2 id="slack">Alvin Wanjala</h2>
+          <h1>Alvin Wanjala</h1>
+        </div>
+        <div className="profile__content">
+          <button id="twitter">@alvyynm</button>
+          <button id="slack" className="hidden">
+            Alvin Wanjala
+          </button>
         </div>
       </div>
       <div className="share-icon">
