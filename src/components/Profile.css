@@ -45,3 +45,15 @@ h1 {
   width: 20px;
   max-width: 100%;
 }
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: var(--fs-desktop-heading);
+    font-weight: var(--fw-bold);
+  }
+  .share-icon {
+    top: 5%;
+    right: 25%;
+    padding: 9px;
+  }
+}

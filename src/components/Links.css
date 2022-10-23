@@ -19,3 +19,11 @@ a:focus {
   background-color: var(--color-primary);
   color: var(--color-white);
 }
+
+@media screen and (min-width: 600px) {
+  .link {
+    min-width: 90%;
+    font-size: var(--fs-desktop-text);
+    font-weight: var(--fw-medium);
+  }
+}
