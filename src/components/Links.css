@@ -12,6 +12,8 @@
   padding: 24px 32px;
   min-width: 350px;
   margin-inline: 16px;
+  font-size: var(--fs-text);
+  font-weight: var(--fw-light);
 }
 
 a:hover,
