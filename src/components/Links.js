@@ -1,8 +1,9 @@
 import React from "react";
+import "./Links.css";
 
 const Links = () => {
   return (
-    <>
+    <div className="wrapper">
       <a href="https://training.zuri.team/" id="btn__zuri">
         Zuri Team
       </a>
@@ -33,7 +34,7 @@ const Links = () => {
       >
         Design Books
       </a>
-    </>
+    </div>
   );
 };
 
