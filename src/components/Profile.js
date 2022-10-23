@@ -1,7 +1,8 @@
 import React from "react";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile.png";
 import moreicon from "../assets/share-menu-icon.png";
 import shareicon from "../assets/share.png";
+import "./Profile.css";
 
 const Profile = () => {
   return (
