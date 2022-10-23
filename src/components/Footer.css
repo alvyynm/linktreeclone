@@ -1,0 +1,12 @@
+.footer > .wrapper {
+  flex-direction: row;
+}
+
+.social-icon {
+  width: 30px;
+}
+
+.social-icon > img {
+  width: 30px;
+  margin-bottom: 20px;
+}
