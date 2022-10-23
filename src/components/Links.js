@@ -4,19 +4,21 @@ import "./Links.css";
 const Links = () => {
   return (
     <div className="wrapper">
-      <a href="https://training.zuri.team/" id="btn__zuri">
+      <a href="https://training.zuri.team/" id="btn__zuri" className="link">
         Zuri Team
       </a>
       <a
         href="http://books.zuri.team"
         id="books"
         data-info="Check out coding and design books from Zuri"
+        className="link"
       >
         Zuri Books
       </a>
       <a
         href="http://books.zuri.team/python-for-beginners?ref_id=alvinwanjala"
         id="book__python"
+        className="link"
       >
         Python Books
       </a>
@@ -24,6 +26,7 @@ const Links = () => {
         href="https://background.zuri.team"
         id="pitch"
         data-info="Discover coders that standout from the crowd"
+        className="link"
       >
         Background Check for Coders
       </a>
@@ -31,6 +34,7 @@ const Links = () => {
         href="https://books.zuri.team/design-rules"
         id="book__design"
         data-info="Secrets to make your designs stand out"
+        className="link"
       >
         Design Books
       </a>
