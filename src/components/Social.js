@@ -5,7 +5,7 @@ import github from "../assets/github.png";
 
 const Social = () => {
   return (
-    <div className="footer">
+    <div className="social">
       <div className="wrapper">
         <a href="#" className="social-icon">
           <img src={slack} alt="Slack logo" />
