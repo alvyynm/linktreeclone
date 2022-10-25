@@ -6,7 +6,17 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="wrapper"></div>
+      <div className="footer-wrapper">
+        <div className="footer__left">
+          <img src={zurilogo} alt="Zuri Internship logo" />
+        </div>
+        <div className="footer__center">
+          <p>HNG Internship 9 Frontend Task</p>
+        </div>
+        <div className="footer__right">
+          <img src={i4glogo} alt="Ingressive For Good logo" />
+        </div>
+      </div>
     </div>
   );
 };
