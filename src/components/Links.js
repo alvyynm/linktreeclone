@@ -4,10 +4,21 @@ import "./Links.css";
 const Links = () => {
   return (
     <div className="wrapper">
-      <a href="https://twitter.com/alvyynm" className="link">
+      <a
+        href="https://twitter.com/alvyynm"
+        className="link"
+        target="_blank"
+        rel="noreferrer"
+      >
         Twitter Link
       </a>
-      <a href="https://training.zuri.team/" id="btn__zuri" className="link">
+      <a
+        href="https://training.zuri.team/"
+        id="btn__zuri"
+        className="link"
+        target="_blank"
+        rel="noreferrer"
+      >
         Zuri Team
       </a>
       <a
@@ -15,6 +26,8 @@ const Links = () => {
         id="books"
         data-info="Check out coding and design books from Zuri"
         className="link"
+        target="_blank"
+        rel="noreferrer"
       >
         Zuri Books
       </a>
@@ -22,6 +35,8 @@ const Links = () => {
         href="http://books.zuri.team/python-for-beginners?ref_id=alvinwanjala"
         id="book__python"
         className="link"
+        target="_blank"
+        rel="noreferrer"
       >
         Python Books
       </a>
@@ -30,6 +45,8 @@ const Links = () => {
         id="pitch"
         data-info="Discover coders that standout from the crowd"
         className="link"
+        target="_blank"
+        rel="noreferrer"
       >
         Background Check for Coders
       </a>
@@ -38,6 +55,8 @@ const Links = () => {
         id="book__design"
         data-info="Secrets to make your designs stand out"
         className="link"
+        target="_blank"
+        rel="noreferrer"
       >
         Design Books
       </a>

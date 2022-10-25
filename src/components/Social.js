@@ -7,10 +7,10 @@ const Social = () => {
   return (
     <div className="social">
       <div className="wrapper">
-        <a href="#" className="social-icon">
+        <a href="#" className="social-icon" target="_blank" rel="noreferrer">
           <img src={slack} alt="Slack logo" />
         </a>
-        <a href="#" className="social-icon">
+        <a href="#" className="social-icon" target="_blank" rel="noreferrer">
           <img src={github} alt="GitHub logo" />
         </a>
       </div>
