@@ -1,5 +1,5 @@
 import React from "react";
-import zurilogo from "../assets/Zuri-internship.png";
+import zurilogo from "../assets/zuri-internship.svg";
 import i4glogo from "../assets/I4G.png";
 import "./Footer.css";
 
