@@ -4,6 +4,9 @@ import "./Links.css";
 const Links = () => {
   return (
     <div className="wrapper">
+      <a href="https://twitter.com/alvyynm" className="link">
+        Twitter Link
+      </a>
       <a href="https://training.zuri.team/" id="btn__zuri" className="link">
         Zuri Team
       </a>
