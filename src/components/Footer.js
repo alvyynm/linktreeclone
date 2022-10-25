@@ -8,13 +8,17 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-wrapper">
         <div className="footer__left">
-          <img src={zurilogo} alt="Zuri Internship logo" />
+          <a href="https://internship.zuri.team/">
+            <img src={zurilogo} alt="Zuri Internship logo" />
+          </a>
         </div>
         <div className="footer__center">
           <p>HNG Internship 9 Frontend Task</p>
         </div>
         <div className="footer__right">
-          <img src={i4glogo} alt="Ingressive For Good logo" />
+          <a href="https://ingressive.org/">
+            <img src={i4glogo} alt="Ingressive For Good logo" />
+          </a>
         </div>
       </div>
     </div>
