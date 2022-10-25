@@ -17,12 +17,6 @@ const Profile = () => {
             Alvin Wanjala
           </h2>
         </div>
-        <div className="profile__content">
-          <button id="twitter">@alvyynm</button>
-          <button id="slack" className="hidden">
-            Alvin Wanjala
-          </button>
-        </div>
       </div>
       <div className="share-icon">
         <a href="#">
