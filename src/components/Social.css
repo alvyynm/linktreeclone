@@ -8,7 +8,7 @@
 
 .social-icon > img {
   width: 30px;
-  margin-bottom: 20px;
+  margin-block: 10px;
 }
 
 .social-icon:hover {
