@@ -1,5 +1,5 @@
 import React from "react";
-import "./Social.scss";
+import "./Social.css";
 import slack from "../assets/slack.png";
 import github from "../assets/github.png";
 
