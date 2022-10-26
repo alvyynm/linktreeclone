@@ -7,7 +7,12 @@ const Social = () => {
   return (
     <div className="social">
       <div className="wrapper">
-        <a href="#" className="social-icon" target="_blank" rel="noreferrer">
+        <a
+          href="https://slack.com/"
+          className="social-icon"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={slack} alt="Slack logo" />
         </a>
         <a
