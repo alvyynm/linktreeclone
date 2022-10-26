@@ -9,7 +9,7 @@ const Profile = () => {
     <div className="profile">
       <div className="wrapper">
         <div className="profile__image">
-          <img src={profile} alt="user profile image" id="profile__img" />
+          <img src={profile} alt="user profile" id="profile__img" />
         </div>
         <div className="profile__name">
           <h1 id="twitter">@alvyynm</h1>
@@ -21,7 +21,7 @@ const Profile = () => {
       <div className="share-icon">
         <a href="#">
           <picture>
-            <source srcset={shareicon} media="(min-width: 600px)" />
+            <source srcSet={shareicon} media="(min-width: 600px)" />
             <img src={moreicon} alt="more icon" />
           </picture>
         </a>
