@@ -14,12 +14,41 @@
   margin-inline: 16px;
   font-size: var(--fs-text);
   font-weight: var(--fw-light);
+
+  position: relative;
 }
 
 a:hover,
 a:focus {
   background-color: var(--color-primary);
   color: var(--color-white);
+}
+
+#books:before,
+#pitch:before,
+#book__design:before {
+  content: attr(data-info);
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  text-align: center;
+  border-radius: 8px;
+  padding: 16px 24px;
+  transition: opacity 0.5s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 30%;
+  top: 110%;
+}
+
+#books:hover:before,
+#pitch:hover:before,
+#book__design:hover:before {
+  opacity: 1;
+  visibility: visible;
 }
 
 @media screen and (min-width: 600px) {
