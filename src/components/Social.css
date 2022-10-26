@@ -11,7 +11,8 @@
   margin-block: 10px;
 }
 
-.social-icon:hover {
+.social-icon:hover,
+.social-icon:focus {
   background-color: transparent;
   color: transparent;
 }
