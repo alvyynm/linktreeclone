@@ -10,7 +10,12 @@ const Social = () => {
         <a href="#" className="social-icon" target="_blank" rel="noreferrer">
           <img src={slack} alt="Slack logo" />
         </a>
-        <a href="#" className="social-icon" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/alvyynm"
+          className="social-icon"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={github} alt="GitHub logo" />
         </a>
       </div>
