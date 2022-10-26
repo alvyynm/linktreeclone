@@ -30,7 +30,7 @@ a:focus {
   content: attr(data-info);
   visibility: hidden;
   opacity: 0;
-  width: max-content;
+  width: 90%;
   background-color: var(--color-primary);
   color: var(--color-white);
   text-align: center;
@@ -40,7 +40,7 @@ a:focus {
 
   position: absolute;
   z-index: 1;
-  left: 30%;
+  left: 0;
   top: 110%;
 }
 
@@ -56,5 +56,12 @@ a:focus {
     min-width: 90%;
     font-size: var(--fs-desktop-text);
     font-weight: var(--fw-medium);
+  }
+
+  #books:before,
+  #pitch:before,
+  #book__design:before {
+    left: 30%;
+    width: max-content;
   }
 }
