@@ -19,12 +19,12 @@ const Profile = () => {
         </div>
       </div>
       <div className="share-icon">
-        <a href="#">
+        <button className="btn-share">
           <picture>
             <source srcSet={shareicon} media="(min-width: 600px)" />
             <img src={moreicon} alt="more icon" />
           </picture>
-        </a>
+        </button>
       </div>
     </div>
   );
