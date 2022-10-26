@@ -53,7 +53,7 @@ const Links = () => {
       <a
         href="https://books.zuri.team/design-rules"
         id="book__design"
-        data-info="Secrets to make your designs stand out"
+        data-info="Get all the secrets to make your designs stand out"
         className="link"
         target="_blank"
         rel="noreferrer"
