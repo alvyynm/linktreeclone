@@ -26,6 +26,7 @@
 h1 {
   font-size: var(--fs-heading);
   font-weight: var(--fw-bold);
+  color: var(--color-primary);
 }
 
 .hidden {
