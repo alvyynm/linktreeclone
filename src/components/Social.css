@@ -1,3 +1,6 @@
+.social {
+  margin-block: 50px;
+}
 .social > .wrapper {
   flex-direction: row;
 }
