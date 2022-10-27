@@ -11,10 +11,14 @@
   flex-direction: column;
   gap: 2rem;
   padding: 20px 0;
+  border-top: 0.5px solid #667085;
+  max-width: 90%;
+  margin-inline: auto;
 }
 
 @media screen and (min-width: 600px) {
   .footer-wrapper {
     flex-direction: row;
+    max-width: 100%;
   }
 }
