@@ -14,7 +14,7 @@ const Profile = () => {
         <div className="profile__name">
           <h1 id="twitter">@alvyynm</h1>
           <h2 id="slack" className="hidden">
-            Alvin Wanjala
+            alvinwanjala
           </h2>
         </div>
       </div>
