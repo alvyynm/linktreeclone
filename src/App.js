@@ -5,6 +5,7 @@ import Profile from "./components/Profile";
 import Footer from "./components/Footer";
 import Social from "./components/Social";
 import "./App.css";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
             </div>
           }
         ></Route>
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );
