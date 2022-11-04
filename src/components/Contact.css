@@ -25,3 +25,9 @@
 fieldset {
   border: none;
 }
+
+.form-group:not(.unique) {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
