@@ -39,3 +39,10 @@ fieldset {
   font-size: 14px;
   line-height: 20px;
 }
+
+div.unique {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 32px;
+}
