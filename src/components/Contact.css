@@ -1,3 +1,15 @@
-.contact {
-  background-color: aqua;
+.form-container header {
+  margin-bottom: 48px;
+}
+
+.form-container h1 {
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+.form-container p {
+  color: #475467;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
 }
