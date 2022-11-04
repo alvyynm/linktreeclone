@@ -50,7 +50,7 @@ function Contact() {
               />
             </div>
 
-            <div class="form-group">
+            <div class="form-group unique">
               <input type="checkbox" />
               <label for="checkbox">
                 You agree to providing your data to Alvin who may contact you.
