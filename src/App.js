@@ -22,7 +22,15 @@ const App = () => {
             </div>
           }
         ></Route>
-        <Route path="/contact" element={<Contact />} />
+        <Route
+          path="/contact"
+          element={
+            <>
+              <Contact />
+              <Footer />
+            </>
+          }
+        />
       </Routes>
     </BrowserRouter>
   );
