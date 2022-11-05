@@ -2,6 +2,10 @@ import React from "react";
 import "./Contact.css";
 
 function Contact({ name }) {
+  function onFormSubmit(e) {
+    e.preventDefault();
+  }
+
   return (
     <main className="container">
       <div className="form-container">
@@ -9,7 +13,7 @@ function Contact({ name }) {
           <h1>Contact Me</h1>
           <p>Hi there, contact me to ask me about anything you have in mind.</p>
         </header>
-        <form>
+        <form onSubmit={onFormSubmit}>
           <fieldset>
             <div class="row">
               <div class="form-group">
