@@ -4,6 +4,30 @@ import "./Contact.css";
 function Contact({ name }) {
   function onFormSubmit(e) {
     e.preventDefault();
+    const firstName = document.querySelector("#first_name");
+    const fname = document.querySelector(".fname");
+
+    const lastName = document.querySelector("#last_name");
+    const lname = document.querySelector(".lname");
+
+    const email = document.querySelector("#email");
+    const ewarning = document.querySelector(".email");
+
+    const textarea = document.querySelector("#message");
+    const textareaWarning = document.querySelector(".textarea");
+
+    if (!firstName.value) {
+      fname.classList.remove("hidden");
+    }
+    if (!lastName.value) {
+      lname.classList.remove("hidden");
+    }
+    if (!email.value) {
+      ewarning.classList.remove("hidden");
+    }
+    if (!textarea.value) {
+      textareaWarning.classList.remove("hidden");
+    }
   }
 
   return (
@@ -23,9 +47,10 @@ function Contact({ name }) {
                   name="first_name"
                   id="first_name"
                   placeholder="Enter your first name"
-                  required
                 />
-                <small class="warningtext">Please enter your first name</small>
+                <small class="warningtext hidden fname">
+                  Please enter your first name
+                </small>
               </div>
               <div class="form-group">
                 <label for="last_name">Last name</label>
@@ -34,9 +59,10 @@ function Contact({ name }) {
                   name="last_name"
                   id="last_name"
                   placeholder="Enter your last name"
-                  required
                 />
-                <small class="warningtext">Please enter your last name</small>
+                <small class="warningtext hidden lname">
+                  Please enter your last name
+                </small>
               </div>
             </div>
 
@@ -47,9 +73,10 @@ function Contact({ name }) {
                 name="email"
                 id="email"
                 placeholder="yourname@email.com"
-                required
               />
-              <small class="warningtext">Please enter a valid email</small>
+              <small class="warningtext hidden email">
+                Please enter a valid email
+              </small>
             </div>
 
             <div class="form-group">
@@ -57,9 +84,10 @@ function Contact({ name }) {
               <textarea
                 id="message"
                 placeholder="Send me a message and I'll reply as soon as possible..."
-                required
               />
-              <small class="warningtext">Please enter a message</small>
+              <small class="warningtext hidden textarea">
+                Please enter a message
+              </small>
             </div>
 
             <div class="form-group unique">

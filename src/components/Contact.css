@@ -111,6 +111,9 @@ small {
   font-size: 14px;
   line-height: 20px;
   color: #f83f23;
+}
+
+.hidden {
   display: none;
 }
 
