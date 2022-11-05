@@ -26,7 +26,7 @@ const App = () => {
           path="/contact"
           element={
             <>
-              <Contact />
+              <Contact name="Alvin" />
               <Footer />
             </>
           }

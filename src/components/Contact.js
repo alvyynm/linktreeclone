@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 
-function Contact() {
+function Contact({ name }) {
   return (
     <main className="container">
       <div className="form-container">
@@ -57,7 +57,7 @@ function Contact() {
             <div class="form-group unique">
               <input type="checkbox" />
               <label for="checkbox">
-                You agree to providing your data to Alvin who may contact you.
+                You agree to providing your data to {name} who may contact you.
               </label>
             </div>
           </fieldset>
