@@ -114,4 +114,8 @@ textarea:focus {
     grid-template-rows: 1fr;
     gap: 24px;
   }
+
+  .footer-wrapper {
+    max-width: 90%;
+  }
 }
