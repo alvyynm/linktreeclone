@@ -19,6 +19,7 @@ function Contact() {
                   name="first_name"
                   id="first_name"
                   placeholder="Enter your first name"
+                  required
                 />
               </div>
               <div class="form-group">
@@ -28,6 +29,7 @@ function Contact() {
                   name="last_name"
                   id="last_name"
                   placeholder="Enter your last name"
+                  required
                 />
               </div>
             </div>
@@ -39,6 +41,7 @@ function Contact() {
                 name="email"
                 id="email"
                 placeholder="yourname@email.com"
+                required
               />
             </div>
 
@@ -47,6 +50,7 @@ function Contact() {
               <textarea
                 id="message"
                 placeholder="Send me a message and I'll reply as soon as possible..."
+                required
               />
             </div>
 
