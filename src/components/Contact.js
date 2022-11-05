@@ -21,6 +21,7 @@ function Contact({ name }) {
                   placeholder="Enter your first name"
                   required
                 />
+                <small class="warningtext">Please enter your first name</small>
               </div>
               <div class="form-group">
                 <label for="last_name">Last name</label>
@@ -31,6 +32,7 @@ function Contact({ name }) {
                   placeholder="Enter your last name"
                   required
                 />
+                <small class="warningtext">Please enter your last name</small>
               </div>
             </div>
 
@@ -43,6 +45,7 @@ function Contact({ name }) {
                 placeholder="yourname@email.com"
                 required
               />
+              <small class="warningtext">Please enter a valid email</small>
             </div>
 
             <div class="form-group">
@@ -52,6 +55,7 @@ function Contact({ name }) {
                 placeholder="Send me a message and I'll reply as soon as possible..."
                 required
               />
+              <small class="warningtext">Please enter a message</small>
             </div>
 
             <div class="form-group unique">
