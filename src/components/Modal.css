@@ -5,11 +5,40 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border: 1px solid #667085;
+  border-radius: 3%;
+  max-width: 40%;
+  padding: 1rem;
+}
+
+.share-header {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  /* gap: 11rem; */
 }
 
 .share-title {
   font-size: 1.1rem;
   font-weight: bold;
+}
+
+.share-btn {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.1rem 0.3rem;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: -6rem;
+}
+
+.share-btn:hover {
+  background-color: #0a0909;
+  color: aliceblue;
+  border: 1px solid #667085;
 }
 
 .link-modal {
