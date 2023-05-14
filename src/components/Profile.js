@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+import { createPortal } from "react-dom";
+import ShareModal from "./Modal";
 import profile from "../assets/profile.png";
 import moreicon from "../assets/share-menu-icon.png";
 import shareicon from "../assets/share.png";
 import "./Profile.css";
 
 const Profile = () => {
+  const [showModal, setShowModal] = useState(false);
   return (
     <div className="profile">
       <div className="wrapper">
@@ -19,13 +22,17 @@ const Profile = () => {
         </div>
       </div>
       <div className="share-icon">
-        <button className="btn-share">
+        <button className="btn-share" onClick={() => setShowModal(!showModal)}>
           <picture>
             <source srcSet={shareicon} media="(min-width: 600px)" />
             <img src={moreicon} alt="more icon" />
           </picture>
         </button>
       </div>
+      {createPortal(
+        <ShareModal showModal={showModal} setShowModal={setShowModal} />,
+        document.body
+      )}
     </div>
   );
 };
