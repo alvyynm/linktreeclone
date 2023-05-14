@@ -5,7 +5,10 @@ const ShareModal = ({ showModal, setShowModal }) => {
   return (
     <>
       {showModal && (
-        <div className="modal-wrapper">
+        <div
+          className="modal-wrapper"
+          onClick={showModal ? () => setShowModal(false) : null}
+        >
           <div className="wrapper-modal">
             <div className="share-header">
               <h2 className="share-title">Share this profile</h2>
