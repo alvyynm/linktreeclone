@@ -2,6 +2,12 @@ import React from "react";
 import "./Modal.css";
 
 const ShareModal = ({ showModal, setShowModal }) => {
+  if (showModal) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "visible";
+  }
+
   return (
     <>
       {showModal && (
