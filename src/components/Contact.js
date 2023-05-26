@@ -39,60 +39,60 @@ function Contact({ name }) {
         </header>
         <form onSubmit={onFormSubmit}>
           <fieldset>
-            <div class="row">
-              <div class="form-group">
-                <label for="first_name">First name </label>
+            <div className="row">
+              <div className="form-group">
+                <label htmlFor="first_name">First name </label>
                 <input
                   type="text"
                   name="first_name"
                   id="first_name"
                   placeholder="Enter your first name"
                 />
-                <small class="warningtext hidden fname">
+                <small className="warningtext hidden fname">
                   Please enter your first name
                 </small>
               </div>
-              <div class="form-group">
-                <label for="last_name">Last name</label>
+              <div className="htmlF-group">
+                <label htmlFor="last_name">Last name</label>
                 <input
                   type="text"
                   name="last_name"
                   id="last_name"
                   placeholder="Enter your last name"
                 />
-                <small class="warningtext hidden lname">
+                <small className="warningtext hidden lname">
                   Please enter your last name
                 </small>
               </div>
             </div>
 
-            <div class="form-group">
-              <label for="email">Email</label>
+            <div className="form-group">
+              <label htmlFor="email">Email</label>
               <input
                 type="email"
                 name="email"
                 id="email"
                 placeholder="yourname@email.com"
               />
-              <small class="warningtext hidden email">
+              <small className="warningtext hidden email">
                 Please enter a valid email
               </small>
             </div>
 
-            <div class="form-group">
-              <label for="message">Message</label>
+            <div className="form-group">
+              <label htmlFor="message">Message</label>
               <textarea
                 id="message"
                 placeholder="Send me a message and I'll reply as soon as possible..."
               />
-              <small class="warningtext hidden textarea">
+              <small className="warningtext hidden textarea">
                 Please enter a message
               </small>
             </div>
 
-            <div class="form-group unique">
+            <div className="form-group unique">
               <input type="checkbox" />
-              <label for="checkbox">
+              <label htmlFor="checkbox">
                 You agree to providing your data to {name} who may contact you.
               </label>
             </div>
